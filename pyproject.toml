@@ -12,7 +12,7 @@ dependencies = [
     "seaborn",
     "fastapi (==0.115.6)",
     "uvicorn[standard] (==0.34.0)",
-    "mlflow (==2.19.0)",
+    "clearml (==1.17.1)",
     "joblib (==1.4.2)",
     "pydantic-settings (==2.7.1)",
     "PyYAML (==6.0.2)",
@@ -26,7 +26,6 @@ packages = [{ include = "bank_marketing", from = "src" }]
 pytest = "==8.3.4"
 httpx = "==0.28.1"
 ruff = "==0.8.6"
-dvc = "==3.59.0"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
